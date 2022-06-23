@@ -1,5 +1,10 @@
+//  npm install create-react-app
+// npx create-react-app appName
+// npm install bootstrap --save
+// npm install reactstrap react-popper --save
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
