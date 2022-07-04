@@ -1,7 +1,8 @@
 //  npm install create-react-app
-// npx create-react-app appName
+// npx create-react-app appName (first-app)
 // npm install bootstrap --save
 // npm install reactstrap react-popper --save
+// For starting apllication print: npm start
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
