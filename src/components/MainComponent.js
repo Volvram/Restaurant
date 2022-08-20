@@ -13,6 +13,16 @@ class Main extends Component {
         };
     }
 
+    componentDidMount(){
+        // Метод, вызываемый после рендеринга DOM
+        console.log('Main component mounted');
+    }
+
+    componentDidUpdate(){
+        // Метод, вызываемый после обновления компонента
+        console.log('Main component updated');
+    }
+
     onDishSelect(dishId) {
         this.setState({selectedDish: dishId});
     }
